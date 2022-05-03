@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
-    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif;
     font-family: 'Nunito sans',sans-serif;
-    font-family: 'Outfit',sans-serif;
+    font-family: 'Outfit',sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 body{
     display: flex;
@@ -58,19 +60,19 @@ body{
 }
 .sedan-btn button:hover{
     background-color: transparent;
-    color: hsla(0, 100%, 0.75);
+    color:  hsla(0, 0%, 100%, 0.75);
     cursor: pointer;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
 .suv-btn button:hover{
     background-color: transparent;
-    color: hsla(0, 100%, 0.75);
+    color:  hsla(0, 0%, 100%, 0.75);
     cursor: pointer;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
 .luxury-btn button:hover{
     background-color: transparent;
-    color: hsla(0, 100%, 0.75);
+    color:  hsla(0, 0%, 100%, 0.75);
     cursor: pointer;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
@@ -78,16 +80,16 @@ body{
 .cards{
     display: inline-block;
 }
-.sedans-card{
-    border-top-right-radius: unset;
+.sedans-cards{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: unset;
+}
+.luxury-card{
+    border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-}
+    border-top-right-radius: unset;
 
 }
-
-
-
-
 
     
 }
