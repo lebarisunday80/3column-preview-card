@@ -76,7 +76,7 @@ body{
     cursor: pointer;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 700px){
 .cards{
     display: inline-block;
 }
